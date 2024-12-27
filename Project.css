@@ -35,7 +35,7 @@ section{
     margin-right: auto;
 }
 #about, #projects, #contact{
-    background-color: #f0dcdc;
+    background-color: #fdefef;
     padding: 20px;
     border-radius: 20px;
 }
@@ -85,6 +85,5 @@ form input,form textarea{
     padding: 8px;
     margin-bottom: 2px;
     border: 1px solid #dcc0c0;
-    border-radius: 15px;
-    width: 600px;
+    border-radius: 15px;
 }
