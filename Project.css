@@ -35,7 +35,7 @@ section{
     margin-right: auto;
 }
 #about, #projects, #contact{
-    background-color: #fdefef;
+    background-color:rgb(225, 206, 206);
     padding: 20px;
     border-radius: 20px;
 }
@@ -52,38 +52,15 @@ footer{
     padding: 10px;
     cursor: pointer;
     text-align: center;
+    text-shadow: 3px 3px 3px;
+    position: sticky;
+    bottom: 0;
 }
-button{
-    background-color:#333;
-    border: none;
-    border-radius: 11px;
-    height: 27px;
-    width:100px;
-    cursor: pointer;
-    color: #caaaaa;
-}
-button:hover{
-    background-color: #fff;
-}
-button:hover{
-    opacity: 1;
-}
-button:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-}
-button:active{
-    opacity: 0.5;
-}
-form{
-    display: flex;
-    flex-direction: column;
-}
-form label{
-    margin: 10px 0;
-}
-form input,form textarea{
-    padding: 8px;
-    margin-bottom: 2px;
-    border: 1px solid #dcc0c0;
-    border-radius: 15px;
+.logo{
+    display: fixed;
+    width: 101px;
+    height:95px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 10px;
 }

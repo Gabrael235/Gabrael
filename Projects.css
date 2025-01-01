@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 2.0;
+}
+#projects{
+    background-color:rgb(225, 206, 206);
+    padding: 20px;
+    border-radius: 20px;
+}
+.Back{
+    color: rgb(0, 157, 255);
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.Back:hover{
+    color: rgb(255, 38, 0);
+}
+.project{
+    margin: 15px 0;
+}
+section{
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
