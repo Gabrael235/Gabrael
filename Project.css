@@ -1,6 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     line-height: 2.0;
+    background: #06131d;
 }
 header{
    background: #4a4a4a;
@@ -26,6 +27,11 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration:none;
+    transition: 1.2s;
+}
+.navbar a:hover
+{
+    color:#057cac 
 }
 section{
     padding: 20px;
@@ -55,6 +61,7 @@ footer{
     text-shadow: 3px 3px 3px;
     position: sticky;
     bottom: 0;
+    z-index: 1;
 }
 .logo{
     display: fixed;
@@ -63,4 +70,62 @@ footer{
     border-radius: 50%;
     object-fit:cover;
     margin-top: 10px;
+}
+.logos{
+    color: #ededed;
+    margin-right: 1500px;
+    text-decoration: none;
+    font-size:25px;
+}
+.btn-box{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box a{
+    position: relative;
+    display:inline-flex ;
+    width: 160px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.7s;
+}
+.btn-box a:hover{
+    color: #00abf0;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a:nth-child(2)::before{
+  background: #00abf0;
+}
+.btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+.btn-box a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: 0.7s;
+}
+.btn-box a:hover:before{
+    width: 100%;
 }
