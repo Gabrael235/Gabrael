@@ -27,11 +27,15 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration:none;
-    transition: 1.2s;
+    background-color: #06131d;
+    padding: 5px 18px;
+    border-radius: 20px;
+    border: 1.5px solid #06131d;
+    transition: 0.5s;
 }
 .navbar a:hover
 {
-    color:#057cac 
+    color:rgb(0, 234, 255) 
 }
 section{
     padding: 20px;
@@ -68,12 +72,19 @@ footer{
 }
 .footer a{
 margin: 0 10px;
-color: #c6c4c4;
+color: #d1a7a7;
 transition: color 0.2s ease;
 font-size: 20px;
+ background-color: #06131d;
+    padding: 5px 18px;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    background: transparent;
 }
 .footer a:hover{
-    color: #00abf0;
+    color: white;
+    background-color: #00abf0;
+    filter: drop-shadow(0 0 10px #00abf0);
 }
 .logo{
     display: fixed;
