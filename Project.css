@@ -3,6 +3,10 @@ body{
     background: #06131d;
     text-align: center;
 }
+@media(max-width: 768px){
+    body{font-size: 14px;
+        margin: 10px;}
+}
 html{
     scroll-behavior: smooth;
 }
